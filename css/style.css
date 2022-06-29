@@ -280,7 +280,7 @@ footer{
 /* end of footer section */
 
 /* resposive for mobile */
-@media only screen and (max-width: 428px){
+@media only screen  and (min-width: 370px) and (max-width: 428px){
     .feture{
         flex-direction: column;
         align-items: center;
@@ -325,6 +325,13 @@ footer{
         padding: 150px 100px;
     }
 
+    .community .landing-link{
+        border: 2px solid;
+        border-radius: 20px;
+        padding: 5px 12px;
+        transition: ease 0.5s;
+    }
+
     .footer{
         flex-direction: column-reverse;
     }
@@ -337,6 +344,6 @@ footer{
 
 /* responsive for tablet */
 @media only screen and (min-width: 768px) and ( max-width: 992px) {
-    
+
 }
 /* responsive for tablet */
