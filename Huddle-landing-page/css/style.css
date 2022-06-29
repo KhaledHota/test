@@ -1,0 +1,342 @@
+﻿/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Globel Values */
+:root{
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+/* navbar */
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.huddle-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.huddle-logo h1{
+    font-family: 'Poppins';
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.huddle-logo img{
+    color: var(--Light-Pink);
+    height: 30px;
+    width: 30px;
+}
+
+.nav-btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--Light-Pink);
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: ease 0.5s;
+}
+
+.nav-btn:hover{
+    background-color: var(--Light-Pink);
+    color: #fff;
+    border: 2px solid;
+}
+
+/* End of navbar */
+
+/* landing */
+
+.landing{
+    height: 100vh;
+}
+
+.hello{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.hello h2{
+    font-family:'Poppins';
+    font-weight: 600;
+    padding-top: 100px;
+}
+
+.hello p{
+    font-weight: 400;
+    padding: 25px;
+}
+
+.landing-link{
+    text-decoration: none;
+    background-color: var(--Light-Pink);
+    color: #fff;
+    border: 2px solid;
+    border-radius: 25px;
+    padding: 12px 40px;
+    transition: ease 0.5s;
+}
+
+.landing-link:hover{
+    background-color: #fff;
+    color: var(--Light-Pink);
+}
+
+.landing-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comm-num .main-photo{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 700px;
+}
+
+.feture{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.feture img{
+    height: 25px;
+}
+
+.feture h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+/* End Of landing */
+
+.a-1{
+    margin-top: 250px;
+}
+
+/* grow-section */
+.grow{
+    background-color: var(--Very-Pale-Blue);
+    padding: 25px;
+    direction:rtl;
+}
+
+.grow-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.grow img{
+    width: 500px;
+}
+
+.img-grow{
+   flex-basis: 40%;
+}
+
+.title-grow{
+    flex-basis: 40%;
+    direction: ltr;
+}
+
+.title-grow h2{
+    font-weight: 700;
+
+}
+
+/* End of grow-section */
+
+/* flowing section */
+.flowing{
+    padding: 100px;
+}
+
+.flowing-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flowing img{
+    width: 500px;
+}
+
+.flowing-title h2{
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+/* end of flowing section */
+
+/* users section */
+.users{
+    padding: 100px;
+}
+
+.users{
+    background-color: var(--Very-Pale-Blue);
+    padding: 25px;
+    direction:rtl;
+}
+
+.users-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.users img{
+    width: 500px;
+}
+
+.users-title{
+    direction: ltr;
+}
+
+.users-title h2{
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+/* end of section */
+
+/* community section*/
+.community{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.community h2{
+    font-weight: 700;
+    padding-bottom: 30px;
+    font-family: "Poppins";
+}
+/* end of community section*/
+
+/* footer section */
+footer{
+    background-color: var(--Very-Dark-Cyan);
+    color: #fff;
+    padding: 25px 0px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.contact div{
+    padding: 5px 0;
+}
+
+.contact img{
+    margin-right: 5px;
+}
+
+.social-icons{
+    font-size: 25px;
+    padding: 5px 0;
+}
+
+.social-icons svg{
+    padding-right: 7px;
+}
+
+.foot-sec2 h2,p{
+    padding-bottom: 5px;
+}
+
+.foot-btn{
+    text-decoration: none;
+    background-color: var(--Light-Pink);
+    color: #fff;
+    border: 2px solid var(--Light-Pink);
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition: ease 0.5s;
+}
+/* end of footer section */
+
+/* resposive for mobile */
+@media only screen and (max-width: 428px){
+    .feture{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .formed{
+        padding-bottom: 30px;
+    }
+
+    .landing-img .main-photo{
+        width: 400px;
+    }
+
+    .landing-contant br,
+    .flowing-content br,
+    .users-content br{
+        display: none;
+    }
+
+    .grow-content,
+    .flowing-content,
+    .users-content{
+        flex-direction: column;
+    }
+
+    .img-grow img,
+    .flowing-img img,
+    .users-img img{
+        display: flex;
+        width: 300px;
+        align-self: center;
+    }
+
+    .title-grow,
+    .flowing-title,
+    .users-title{
+        text-align: center;
+        padding-top: 60px;
+    }
+
+    .community{
+        padding: 150px 100px;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .foot-sec2{
+        padding-bottom: 50px;
+    }
+}
+/* resposive for mobile */
+
+/* responsive for tablet */
+@media only screen and (min-width: 768px) and ( max-width: 992px) {
+    
+}
+/* responsive for tablet */
